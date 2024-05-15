@@ -79,7 +79,7 @@ export default function Home() {
                     </div>
                     <span>@{userData.login}</span>
                     <p>{userData.bio || "Biyografi eklenmemiş"}</p>
-                    <div className="flex bg-gray-900 px-6 py-4 rounded-xl justify-between">
+                    <div className="flex bg-gray-300 dark:bg-gray-900 px-6 py-4 rounded-xl justify-between">
                       <div className="flex flex-col gap-2">
                         <span>Repos</span>
                         <span>{userData.public_repos}</span>
